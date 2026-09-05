@@ -1,6 +1,6 @@
 # Mizan - Personal Finance
 
-Mizan is a personal finance management application built with Java and MySQL. It helps users manage their finances by tracking income and expenses, organizing transactions into categories, and managing personal budgets.
+Mizan is a personal finance management application built with Java and MySQL. It allows users to manage their finances by tracking income and expenses, organizing transactions into categories, and monitoring their monthly financial activity.
 
 ## Features
 
@@ -8,8 +8,8 @@ Mizan is a personal finance management application built with Java and MySQL. It
 - Income and expense tracking
 - Transaction management
 - Custom transaction categories
-- Personal budget management
-- Financial dashboard
+- Monthly income, expenses, and balance overview
+- Add, update, and delete transactions
 
 ## Technologies
 
@@ -28,16 +28,30 @@ The Mizan database consists of four main entities:
 - Category
 - Budget
 
-The database uses primary keys and foreign keys to maintain relationships between users, their transactions, categories, and budgets.
+The database uses primary and foreign keys to maintain relationships between users, transactions, categories, and budgets.
 
 ### Enhanced Entity Relationship Diagram (EERD)
 
 ![Mizan Enhanced Entity Relationship Diagram](mizan-eerd.jpeg)
 
+## Application Screenshots
+
+### Dashboard
+
+The dashboard provides an overview of the user's monthly income, expenses, and current balance.
+
+![Mizan Dashboard](mizan-dashboard.jpeg)
+
+### Transaction Management
+
+Users can view, add, update, and delete transactions, as well as organize them into categories.
+
+![Mizan Transaction Management](mizan-transactions.jpeg)
+
 ## Project Structure
 
-- `Mizan/` - Java application source code and project files
-- `mizan.sql` - MySQL database schema and sample data
+- `Mizan/` - Java application source code and NetBeans project files
+- `mizan.sql` - MySQL database schema and data
 - `README.md` - Project documentation
 
 ## Team
