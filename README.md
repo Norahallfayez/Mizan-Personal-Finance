@@ -30,6 +30,10 @@ The Mizan database consists of four main entities:
 
 The database uses primary keys and foreign keys to maintain relationships between users, their transactions, categories, and budgets.
 
+### Enhanced Entity Relationship Diagram (EERD)
+
+![Mizan Enhanced Entity Relationship Diagram](mizan-eerd.jpeg)
+
 ## Project Structure
 
 - `Mizan/` - Java application source code and project files
